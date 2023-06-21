@@ -1,5 +1,5 @@
-const LoginPage = require('../pageobjects/login.page')
-const SecurePage = require('../pageobjects/secure.page')
+const LoginPage = require('../../pageobjects/login.page')
+const SecurePage = require('../../pageobjects/secure.page')
 
 describe('My Login application', () => {
     let testRan = 0;
