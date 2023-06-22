@@ -12,8 +12,6 @@ describe('Users API Test', () => {
     it('should retrieve users and verify response data', async () => {
       const response = await axios.get('https://jsonplaceholder.typicode.com/users');
 
-      console.log(response.data);
-
       const users = response.data;
   
       assert.strictEqual(users.length, 10, 'Number of users should be 10');
