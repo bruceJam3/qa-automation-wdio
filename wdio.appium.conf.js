@@ -10,12 +10,13 @@ exports.config = Object.assign(baseConfig.config, {
   capabilities: [
       {
         // Set your desired capabilities for the mobile device
-        platformName: 'Android', // or 'iOS'
+        platformName: 'Android',
+        //automationName: 'XCUITest', // Only for IOS
+        //platformName: 'iOS',
         deviceName: 'Pixel 6',
-        //platformVersion: '<your-android-version>',
-        //appiumVersion: '1.22.0',
-        //automationName: 'UiAutomator2',
+        //deviceName: 'iPhone 12', //IOS
         app: '/Users/jam3/Downloads/testApps/ApiDemos-debug.apk',
+        //app: '/Users/jam3/Downloads/testApps/TestApp.app', // IOS
         // ... other desired capabilities
       },
     ],
