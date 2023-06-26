@@ -32,19 +32,24 @@ Before getting started, ensure that you have the following software installed on
 2. Update the baseUrl property with the URL of the website you want to test.
 
 ## Running the Tests
-To run the tests, execute the following commands:
+- To run the tests, execute the following commands:
 
-npm run wdio - to run all the tests
-npx wdio wdio.conf.js --spec ./test/specs/api/users.api.js - specify the correct file that you want to run
+    ```bash
+    npm run wdio - to run all the tests
+    npx wdio wdio.conf.js --spec ./test/specs/api/users.api.js - specify the correct file that you want to run
 
 ## Test Structure
 The test files are located in the test directory. 
 
 ## Appium
-npm install -g appium (if doesn't work, try with brew install appium)
+- Ensure to update the wdio.appium.conf.js propertly as needed and then
+
+    ```bash
+    npm run test-mobile
 
 ## Resources
 - WebdriverIO: https://webdriver.io
 - Mocha: https://mochajs.org
 - Axios: https://axios-http.com
 - Chai: https://www.chaijs.com
+- Appium: https://appium.io/docs/en/2.0/
