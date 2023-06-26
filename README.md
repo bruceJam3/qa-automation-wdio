@@ -40,6 +40,9 @@ npx wdio wdio.conf.js --spec ./test/specs/api/users.api.js - specify the correct
 ## Test Structure
 The test files are located in the test directory. 
 
+## Appium
+npm install -g appium (if doesn't work, try with brew install appium)
+
 ## Resources
 - WebdriverIO: https://webdriver.io
 - Mocha: https://mochajs.org
